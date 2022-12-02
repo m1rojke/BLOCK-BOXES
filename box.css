@@ -1,0 +1,257 @@
+.page {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#bl1h {
+  color: black;
+  background-color: red;
+  border: 0;
+  margin: 35px auto;
+  display: block;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.bl1h {
+  width: 65px;
+  margin: 0;
+  margin: 35px auto;
+}
+
+.bl2h {
+  width: 65px;
+  margin: 0;
+  margin: 125px auto;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.bl1h, .bl2h, .bl3h, .bl4h {
+  animation: rotation 5s linear infinite;
+}
+
+@keyframes translate {
+  0% {
+    transform: translate(80px, 0);
+  }
+
+  25% {
+    transform: translate(0, 150px);
+  }
+
+  50% {
+    transform: translate(-80px, 0);
+  }
+
+  75% {
+    transform: translate(0, -130px);
+  }
+
+  100% {
+    transform: translate(80px, 0);
+  }
+}
+
+.translate {
+  animation: translate 6s linear infinite;
+}
+
+.bl3h {
+  width: 65px;
+  margin: 0;
+  margin: 30px auto;
+}
+
+.bl4h {
+  width: 65px;
+  margin: 0;
+  margin: 60px auto;
+}
+
+.bl1 {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bl1-bx1 {
+  outline: 2px solid black;
+  height: 100px;
+  width: 90%;
+  background-color: red;
+}
+
+.bl1-bx2 {
+  outline: 2px solid black;
+  height: 100px;
+  width: 90%;
+  background-color: yellow;
+}
+
+.bl1-bx3 {
+  outline: 2px solid black;
+  height: 100px;
+  width: 90%;
+  background-color: green;
+}
+
+.bl2 {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bl2-bx1 {
+  height: 300px;
+  width: 30%;
+  outline: 2px solid black;
+  background-color: red;
+}
+
+.bl2-bx2 {
+  height: 300px;
+  width: 30%;
+  outline: 2px solid black;
+  background-color: yellow;
+}
+
+.bl2-bx3 {
+  height: 300px;
+  width: 30%;
+  outline: 2px solid black;
+  background-color: green;
+}
+
+.bl3 {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.papa {
+  height: 300px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bl3-bx1 {
+  outline: 2px solid black;
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
+
+.bl3-bx2 {
+  outline: 2px solid black;
+  height: 100px;
+  width: 50%;
+  background-color: yellow;
+}
+
+.bl3-bx3 {
+  outline: 2px solid black;
+  height: 100px;
+  width: 50%;
+  background-color: yellow;
+}
+
+.bl3-bx4 {
+  outline: 2px solid black;
+  height: 94px;
+  width: 33%;
+  background-color: red;
+}
+
+.bl3-bx5 {
+  outline: 2px solid black;
+  height: 94px;
+  width: 34%;
+  background-color: yellow;
+}
+
+.bl3-bx6 {
+  outline: 2px solid black;
+  height: 94px;
+  width: 33%;
+  background-color: green;
+}
+
+.bl4 {
+  margin: 0;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mama {
+  height: 300px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.bl4-bx1 {
+  outline: 2px solid black;
+  height: 300px;
+  width: 33%;
+  background-color: red;
+}
+
+.bl4-bx2 {
+  outline: 2px solid black;
+  height: 150px;
+  width: 34%;
+  background-color: yellow;
+}
+
+.bl4-bx3 {
+  outline: 2px solid black;
+  height: 150px;
+  width: 34%;
+  background-color: yellow;
+}
+
+.bl4-bx4 {
+  outline: 2px solid black;
+  height: 100px;
+  width: 33%;
+  background-color: green
+}
+
+.bl4-bx5 {
+  outline: 2px solid black;
+  height: 100px;
+  width: 33%;
+  background-color: yellow;
+}
+
+.bl4-bx6 {
+  outline: 2px solid black;
+  height: 100px;
+  width: 33%;
+  background-color: red;
+}
