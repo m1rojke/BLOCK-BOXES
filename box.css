@@ -46,18 +46,22 @@
 @keyframes translate {
   0% {
     transform: translate(80px, 0);
+    color: yellowgreen;
   }
 
   25% {
     transform: translate(0, 150px);
+    color: aqua;
   }
 
   50% {
     transform: translate(-80px, 0);
+    color: darkmagenta;
   }
 
   75% {
     transform: translate(0, -130px);
+    color: deeppink;
   }
 
   100% {
