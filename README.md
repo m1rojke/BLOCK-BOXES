@@ -2,4 +2,4 @@
 ### Flex верстка
 ### Keyframes
 ### Alert
-https://m1rojke.github.io/BLOCK-BOXES/
+https://m1rojke.github.io/BLOCK-BOXES/box.html
